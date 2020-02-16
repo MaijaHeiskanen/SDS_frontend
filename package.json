@@ -1,0 +1,23 @@
+{
+  "name": "sds_frontend",
+  "version": "1.0.0",
+  "description": "Responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaijaHeiskanen/SDS_frontend.git"
+  },
+  "author": "Maija",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaijaHeiskanen/SDS_frontend/issues"
+  },
+  "homepage": "https://github.com/MaijaHeiskanen/SDS_frontend#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
