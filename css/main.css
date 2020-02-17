@@ -169,6 +169,8 @@ main {
     margin: auto;
     border-radius: 50%;
     border: #eece1a 3px solid; }
+  .about-info a {
+    color: #eece1a; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
