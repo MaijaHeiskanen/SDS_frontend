@@ -13,6 +13,7 @@ body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 // Headings
@@ -91,6 +92,10 @@ main {
     border: $secondary-color 3px solid;
   }
 
+  a {
+    color: $secondary-color;
+  }
+
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
@@ -130,6 +135,14 @@ main {
       border-color: $secondary-color;
       @include easeOut;
     }
+  }
+
+  .project-info {
+    background: lighten($primary-color, 10);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
   }
 }
 

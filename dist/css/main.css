@@ -99,7 +99,8 @@ body {
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5; }
+  line-height: 1.5;
+  overflow-x: hidden; }
   body#bg-img {
     background: url("../img/background.jpg");
     background-attachment: fixed;
@@ -169,6 +170,8 @@ main {
     margin: auto;
     border-radius: 50%;
     border: #eece1a 3px solid; }
+  .about-info a {
+    color: #eece1a; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -194,6 +197,12 @@ main {
       opacity: 0.8;
       border-color: #eece1a;
       transition: all 0.3s ease-out; }
+  .projects .project-info {
+    background: #5e5e5e;
+    padding: 0.5rem;
+    border-bottom: #eece1a 5px solid;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
