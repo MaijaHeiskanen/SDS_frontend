@@ -94,6 +94,9 @@ main {
 
   a {
     color: $secondary-color;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   .bio {
